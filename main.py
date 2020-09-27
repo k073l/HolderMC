@@ -7,8 +7,7 @@ sg.theme('Dark2')
 layout = [[sg.Text('HolderMC - your crossbow user')],
           [sg.Text('Delay (in seconds):'), sg.InputText()],
           [sg.Button('Run'), sg.Button('Stop')]]
-window = sg.Window('HolderMC', layout, no_titlebar=False, alpha_channel=.7, grab_anywhere=True, keep_on_top=True,
-                   icon="C:/Users/k0/Desktop/Programowanie/AHK/Projekty/MakroKit/icons8-cursor-48.ico")
+window = sg.Window('HolderMC', layout, no_titlebar=False, alpha_channel=.7, grab_anywhere=True, keep_on_top=True)
 
 if __name__ == "__main__":
     try:
